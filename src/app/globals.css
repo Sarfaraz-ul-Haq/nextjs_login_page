@@ -25,3 +25,19 @@ body {
     text-wrap: balance;
   }
 }
+
+body {
+  @apply min-h-screen flex justify-center items-center bg-gray-800;
+}
+
+.form-box {
+  @apply flex flex-col gap-3 border border-gray-900  bg-gray-700 px-24 py-24;
+}
+
+.login {
+  @apply font-bold text-3xl text-gray-300 flex justify-center mb-10;
+}
+
+.login-button {
+  @apply flex justify-center;
+}
